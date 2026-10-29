@@ -278,7 +278,7 @@ footer span{color:var(--gold)}
     <p class="h-desc reveal">Building <strong>production-grade backend applications and full-stack products</strong> with Java, Spring Boot, REST APIs, PostgreSQL, and React. Interested in clean code, practical problem-solving, and production-ready software.</p>
     <div class="h-btns reveal">
       <a href="#projects" class="btn btn-p">View Projects</a>
-      <a href="https://github.com/p-singhal-0011" target="_blank" class="btn btn-o">GitHub ↗</a>
+      <a href="https://github.com/priyanshsinghal1" target="_blank" class="btn btn-o">GitHub ↗</a>
       <a href="./assets/Priyansh_SE_CV.pdf" download class="btn btn-t">⬇ Resume</a>
     </div>
     <div class="h-badges reveal">
@@ -323,7 +323,7 @@ footer span{color:var(--gold)}
         <div class="adiv"></div>
         <div class="ainfo">
           <div>📧 singhalpriyansh2005@gmail.com</div><div>📱 +91-7302447130</div>
-          <div><a href="https://github.com/p-singhal-0011" target="_blank" style="color:var(--teal)">github.com/p-singhal-0011</a></div>
+          <div><a href="https://github.com/priyanshsinghal1" target="_blank" style="color:var(--teal)">github.com/priyanshsinghal1</a></div>
         </div>
       </div>
       <div class="about-text reveal">
@@ -474,7 +474,7 @@ footer span{color:var(--gold)}
         <div class="clinks">
           <a class="clink" href="mailto:singhalpriyansh2005@gmail.com"><div class="cico">✉</div>singhalpriyansh2005@gmail.com</a>
           <a class="clink" href="https://www.linkedin.com/in/priyanshsinghal1/" target="_blank"><div class="cico">in</div>linkedin.com/in/priyanshsinghal1/</a>
-          <a class="clink" href="https://github.com/p-singhal-0011" target="_blank"><div class="cico">&lt;/&gt;</div>github.com/p-singhal-0011</a>
+          <a class="clink" href="https://github.com/priyanshsinghal1" target="_blank"><div class="cico">&lt;/&gt;</div>github.com/priyanshsinghal1</a>
           <a class="clink" href="tel:+917302447130"><div class="cico">📱</div>+91-7302447130</a>
           
         </div>
@@ -579,8 +579,8 @@ setTimeout(drawRadar,120);
 // ── GH STATS ─────────────────────────────
 async function loadGHStats(){
   try{
-    if('p-singhal-0011'.startsWith('YOUR_')) return;
-    const [u,repos]=await Promise.all([fetch('https://api.github.com/users/p-singhal-0011').then(r=>r.json()),fetch('https://api.github.com/users/p-singhal-0011/repos?per_page=100').then(r=>r.json())]);
+    if('priyanshsinghal1'.startsWith('YOUR_')) return;
+    const [u,repos]=await Promise.all([fetch('https://api.github.com/users/priyanshsinghal1').then(r=>r.json()),fetch('https://api.github.com/users/priyanshsinghal1/repos?per_page=100').then(r=>r.json())]);
     document.getElementById('gs-r').textContent=u.public_repos||0;
     document.getElementById('gs-f').textContent=u.followers||0;
     if(Array.isArray(repos)){
@@ -612,7 +612,7 @@ const featuredProjects = [
       'PostgreSQL',
       'Docker'
     ],
-    githubUrl: 'https://github.com/p-singhal-0011/ProcureFlow',
+    githubUrl: 'https://github.com/priyanshsinghal1/ProcureFlow',
     liveUrl: '',
     status: 'In Development'
   },
@@ -629,7 +629,7 @@ const featuredProjects = [
       'PostgreSQL',
       'Redis'
     ],
-    githubUrl: 'https://github.com/p-singhal-0011/Guardrail-api-engine',
+    githubUrl: 'https://github.com/priyanshsinghal1/Guardrail-api-engine',
     liveUrl: '',
     status: 'Backend Project'
   },
@@ -646,7 +646,7 @@ const featuredProjects = [
       'PyTorch',
       'Flask'
     ],
-    githubUrl: 'https://github.com/p-singhal-0011/MedEnhanceAI',
+    githubUrl: 'https://github.com/priyanshsinghal1/MedEnhanceAI',
     liveUrl: '',
     status: 'Research Project'
   },
@@ -662,7 +662,7 @@ const featuredProjects = [
       'REST API',
       'PostgreSQL'
     ],
-    githubUrl: 'https://github.com/p-singhal-0011/TaskManagerAPI',
+    githubUrl: 'https://github.com/priyanshsinghal1/TaskManagerAPI',
     liveUrl: '',
     status: 'Backend Project'
   }
@@ -799,7 +799,7 @@ const HM_COLORS = [
 async function buildHeatmap() {
   const grid = document.getElementById('hmg');
   const monthRow = document.getElementById('hmm');
-  const username = 'p-singhal-0011';
+  const username = 'priyanshsinghal1';
 
   grid.innerHTML = '';
   monthRow.innerHTML = '';
@@ -892,7 +892,7 @@ const CMDS=[
   {ico:'✉️',lbl:'Contact',sub:'Get in touch',fn:()=>goto('#contact'),k:'X'},
   {ico:'🌙',lbl:'Toggle Theme',sub:'Switch dark / light',fn:toggleTheme,k:'T'},
   {ico:'📄',lbl:'Download Resume',sub:"Get Priyansh's CV PDF",fn:()=>window.open('./assets/Priyansh_SE_CV.pdf','_blank'),k:'R'},
-  {ico:'🐙',lbl:'GitHub Profile',sub:'Update p-singhal-0011 in the code',fn:()=>window.open('https://github.com/p-singhal-0011','_blank'),k:'G'},
+  {ico:'🐙',lbl:'GitHub Profile',sub:'Update priyanshsinghal1 in the code',fn:()=>window.open('https://github.com/priyanshsinghal1','_blank'),k:'G'},
   {ico:'💼',lbl:'LinkedIn',sub:'Update priyanshsinghal1 in the code',fn:()=>window.open('https://linkedin.com/in/priyanshsinghal1','_blank'),k:'L'},
   {ico:'📧',lbl:'Send Email',sub:'Replace with your real email address',fn:()=>window.open('mailto:singhalpriyansh2005@gmail.com'),k:'M'},
 ];
